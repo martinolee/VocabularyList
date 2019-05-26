@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7226A5EF229A8C2300F24ED4 /* VocabularyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226A5EE229A8C2300F24ED4 /* VocabularyListViewController.swift */; };
+		7226A5F1229A8C4200F24ED4 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226A5F0229A8C4200F24ED4 /* DictionaryViewController.swift */; };
 		723487FB229843090074AEBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723487FA229843090074AEBC /* AppDelegate.swift */; };
-		723487FD229843090074AEBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723487FC229843090074AEBC /* ViewController.swift */; };
 		72348800229843090074AEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723487FE229843090074AEBC /* Main.storyboard */; };
 		72348803229843090074AEBC /* VocabularyList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72348801229843090074AEBC /* VocabularyList.xcdatamodeld */; };
 		723488052298430B0074AEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723488042298430B0074AEBC /* Assets.xcassets */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7226A5EE229A8C2300F24ED4 /* VocabularyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyListViewController.swift; sourceTree = "<group>"; };
+		7226A5F0229A8C4200F24ED4 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 		723487F7229843090074AEBC /* VocabularyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabularyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		723487FA229843090074AEBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		723487FC229843090074AEBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		723487FF229843090074AEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72348802229843090074AEBC /* VocabularyList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VocabularyList.xcdatamodel; sourceTree = "<group>"; };
 		723488042298430B0074AEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				723487FA229843090074AEBC /* AppDelegate.swift */,
-				723487FC229843090074AEBC /* ViewController.swift */,
+				7226A5EE229A8C2300F24ED4 /* VocabularyListViewController.swift */,
+				7226A5F0229A8C4200F24ED4 /* DictionaryViewController.swift */,
 				723487FE229843090074AEBC /* Main.storyboard */,
 				723488042298430B0074AEBC /* Assets.xcassets */,
 				723488062298430B0074AEBC /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				72348803229843090074AEBC /* VocabularyList.xcdatamodeld in Sources */,
-				723487FD229843090074AEBC /* ViewController.swift in Sources */,
 				723487FB229843090074AEBC /* AppDelegate.swift in Sources */,
+				7226A5F1229A8C4200F24ED4 /* DictionaryViewController.swift in Sources */,
+				7226A5EF229A8C2300F24ED4 /* VocabularyListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
