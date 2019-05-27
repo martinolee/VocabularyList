@@ -59,8 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				723487FA229843090074AEBC /* AppDelegate.swift */,
-				7226A5EE229A8C2300F24ED4 /* VocabularyListViewController.swift */,
 				7226A5F0229A8C4200F24ED4 /* DictionaryViewController.swift */,
+				7226A5EE229A8C2300F24ED4 /* VocabularyListViewController.swift */,
 				723487FE229843090074AEBC /* Main.storyboard */,
 				723488042298430B0074AEBC /* Assets.xcassets */,
 				723488062298430B0074AEBC /* LaunchScreen.storyboard */,
@@ -292,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VocabularyList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VocabularyList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
