@@ -12,19 +12,26 @@ class DictionaryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.title = "Dictionary"
+        
+        addSearchBar()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func addSearchBar() {
+        
+        let searchController = UISearchController(searchResultsController: nil)
+        
+        searchController.obscuresBackgroundDuringPresentation = false
+        
+        searchController.searchBar.autocapitalizationType = .none
+        
+        self.navigationItem.searchController = searchController
+        
+        self.navigationItem.hidesSearchBarWhenScrolling = true
+        
+        self.navigationController!.navigationBar.prefersLargeTitles = true
+        
     }
-    */
 
 }
